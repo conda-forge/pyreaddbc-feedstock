@@ -10,7 +10,7 @@ source:
   sha256: e3ce8f12b0feec3d6bf2b3722309346f015a22e8279f9789e9eeda869d8b33d1
 
 build:
-  number: 0
+  number: 1
   skip: True  # [not linux]
   script_env:
    - POETRY_DYNAMIC_VERSIONING_BYPASS={{ version }}
